@@ -49,7 +49,7 @@ const Banner = () => {
                         <span className="font-medium text-foreground">
                             Vivek
                         </span>
-                        . Hi! I’m Vivek Sharma, a full-stack developer and founder of Chubs Media. I love building for the sake of creating not for the perks, but for the thrill of bringing ideas to life. From intuitive frontends to robust backends (and everything in between), if something can be achieved through tech, I’ll find a way to make it happen fast, reliable, and with purpose.
+                        . a full-stack developer and founder of Chubs Media. I love building for the sake of creating not for the perks, but for the thrill of bringing ideas to life. From intuitive frontends to robust backends (and everything in between), if something can be achieved through tech, I’ll find a way to make it happen fast, reliable, and with purpose.
                     </p>
                     <Button
                         as="link"
