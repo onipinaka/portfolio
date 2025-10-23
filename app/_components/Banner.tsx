@@ -55,7 +55,7 @@ const Banner = () => {
                         as="link"
                         target="_blank"
                         rel="noopener noreferrer"
-                        href="https://drive.google.com/drive/folders/19neNHCYgdwPVyEESmuqx08EzqyZFiki6?usp=sharing"
+                        href="https://drive.google.com/file/d/1zi3sEbFG8ozcAgEwv1yIYQlK7jfhd0XW/view?usp=sharing"
                         variant="primary"
                         className="mt-9 banner-button slide-up-and-fade"
                     >
