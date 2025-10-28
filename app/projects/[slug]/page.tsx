@@ -79,7 +79,7 @@ export const generateMetadata = async ({
             description:
                 project.description ||
                 `Explore ${project.title} — a creation by Vivek Sharma, a Next.js and React developer.`,
-            images: [project.images?[0] || '/og-image.png'],
+            images: [project.images?.[0] || '/og-image.png'],
         },
     };
 };
