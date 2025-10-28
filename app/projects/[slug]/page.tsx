@@ -60,7 +60,10 @@ export const generateMetadata = async ({
             siteName: 'Vivek Sharma Portfolio',
             images: [
                 {
-                    url: project.image || '/og-image.png',
+                    url:
+                        project.thumbnail ||
+                        project.images?.[0] ||
+                        '/og-image.png',
                     width: 1200,
                     height: 630,
                     alt: `${project.title} - ${project.techStack.join(', ')}`,
@@ -76,7 +79,7 @@ export const generateMetadata = async ({
             description:
                 project.description ||
                 `Explore ${project.title} — a creation by Vivek Sharma, a Next.js and React developer.`,
-            images: [project.image || '/og-image.png'],
+            images: [project.images?[0] || '/og-image.png'],
         },
     };
 };
